@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 187, 0);
+    font-family: 'helvetica';
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+nav img{
+    margin-right: 50px;
+}
+.button{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: yellow;
+    border: solid black 3px;
+    margin: 2px 2px;
+    cursor:not-allowed;
+    font-weight: bolder;
+    transition-duration: 400ms;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.button:hover{
+    border-color: yellow;
+    background-color: black;
+    color: white;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color:chocolate;
+}
+.logo{
+    transition-duration: 1s;
+    cursor: grab;
+}
+.logo:hover{
+    transform: rotateZ(720deg);
+}
